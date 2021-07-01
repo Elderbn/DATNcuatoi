@@ -1,0 +1,802 @@
+version: "2.0"
+
+rules:
+- rule: rule_1
+  steps:
+  - intent: intent_1
+  - action: utter_1
+
+- rule: rule_2
+  steps:
+  - intent: intent_2
+  - action: utter_2
+
+- rule: rule_3
+  steps:
+  - intent: intent_3
+  - action: utter_3
+
+- rule: rule_4
+  steps:
+  - intent: intent_4
+  - action: utter_4
+
+- rule: rule_5
+  steps:
+  - intent: intent_5
+  - action: utter_5
+
+- rule: rule_6
+  steps:
+  - intent: intent_6
+  - action: utter_6
+
+- rule: rule_7
+  steps:
+  - intent: intent_7
+  - action: utter_7
+
+- rule: rule_8
+  steps:
+  - intent: intent_8
+  - action: utter_8
+
+- rule: rule_9
+  steps:
+  - intent: intent_9
+  - action: utter_9
+
+- rule: rule_10
+  steps:
+  - intent: intent_10
+  - action: utter_10
+
+- rule: rule_11
+  steps:
+  - intent: intent_11
+  - action: utter_11
+
+- rule: rule_12
+  steps:
+  - intent: intent_12
+  - action: utter_12
+
+- rule: rule_13
+  steps:
+  - intent: intent_13
+  - action: utter_13
+
+- rule: rule_14
+  steps:
+  - intent: intent_14
+  - action: utter_14
+
+- rule: rule_15
+  steps:
+  - intent: intent_15
+  - action: utter_15
+
+- rule: rule_16
+  steps:
+  - intent: intent_16
+  - action: utter_16
+
+- rule: rule_17
+  steps:
+  - intent: intent_17
+  - action: utter_17
+
+- rule: rule_18
+  steps:
+  - intent: intent_18
+  - action: utter_18
+
+- rule: rule_19
+  steps:
+  - intent: intent_19
+  - action: utter_19
+
+- rule: rule_20
+  steps:
+  - intent: intent_20
+  - action: utter_20
+
+- rule: rule_21
+  steps:
+  - intent: intent_21
+  - action: utter_21
+
+- rule: rule_22
+  steps:
+  - intent: intent_22
+  - action: utter_22
+
+- rule: rule_23
+  steps:
+  - intent: intent_23
+  - action: utter_23
+
+- rule: rule_24
+  steps:
+  - intent: intent_24
+  - action: utter_24
+
+- rule: rule_25
+  steps:
+  - intent: intent_25
+  - action: utter_25
+
+- rule: rule_26
+  steps:
+  - intent: intent_26
+  - action: utter_26
+
+- rule: rule_27
+  steps:
+  - intent: intent_27
+  - action: utter_27
+
+- rule: rule_28
+  steps:
+  - intent: intent_28
+  - action: utter_28
+
+- rule: rule_29
+  steps:
+  - intent: intent_29
+  - action: utter_29
+
+- rule: rule_30
+  steps:
+  - intent: intent_30
+  - action: utter_30
+
+- rule: rule_31
+  steps:
+  - intent: intent_31
+  - action: utter_31
+
+- rule: rule_32
+  steps:
+  - intent: intent_32
+  - action: utter_32
+
+- rule: rule_33
+  steps:
+  - intent: intent_33
+  - action: utter_33
+
+- rule: rule_34
+  steps:
+  - intent: intent_34
+  - action: utter_34
+
+- rule: rule_35
+  steps:
+  - intent: intent_35
+  - action: utter_35
+
+- rule: rule_36
+  steps:
+  - intent: intent_36
+  - action: utter_36
+
+- rule: rule_37
+  steps:
+  - intent: intent_37
+  - action: utter_37
+
+- rule: rule_38
+  steps:
+  - intent: intent_38
+  - action: utter_38
+
+- rule: rule_39
+  steps:
+  - intent: intent_39
+  - action: utter_39
+
+- rule: rule_40
+  steps:
+  - intent: intent_40
+  - action: utter_40
+
+- rule: rule_41
+  steps:
+  - intent: intent_41
+  - action: utter_41
+
+- rule: rule_42
+  steps:
+  - intent: intent_42
+  - action: utter_42
+
+- rule: rule_43
+  steps:
+  - intent: intent_43
+  - action: utter_43
+
+- rule: rule_44
+  steps:
+  - intent: intent_44
+  - action: utter_44
+
+- rule: rule_45
+  steps:
+  - intent: intent_45
+  - action: utter_45
+
+- rule: rule_46
+  steps:
+  - intent: intent_46
+  - action: utter_46
+
+- rule: rule_47
+  steps:
+  - intent: intent_47
+  - action: utter_47
+
+- rule: rule_48
+  steps:
+  - intent: intent_48
+  - action: utter_48
+
+- rule: rule_49
+  steps:
+  - intent: intent_49
+  - action: utter_49
+
+- rule: rule_50
+  steps:
+  - intent: intent_50
+  - action: utter_50
+
+- rule: rule_51
+  steps:
+  - intent: intent_51
+  - action: utter_51
+
+- rule: rule_52
+  steps:
+  - intent: intent_52
+  - action: utter_52
+
+- rule: rule_53
+  steps:
+  - intent: intent_53
+  - action: utter_53
+
+- rule: rule_54
+  steps:
+  - intent: intent_54
+  - action: utter_54
+
+- rule: rule_55
+  steps:
+  - intent: intent_55
+  - action: utter_55
+
+- rule: rule_56
+  steps:
+  - intent: intent_56
+  - action: utter_56
+
+- rule: rule_57
+  steps:
+  - intent: intent_57
+  - action: utter_57
+
+- rule: rule_58
+  steps:
+  - intent: intent_58
+  - action: utter_58
+
+- rule: rule_59
+  steps:
+  - intent: intent_59
+  - action: utter_59
+
+- rule: rule_60
+  steps:
+  - intent: intent_60
+  - action: utter_60
+
+- rule: rule_61
+  steps:
+  - intent: intent_61
+  - action: utter_61
+
+- rule: rule_62
+  steps:
+  - intent: intent_62
+  - action: utter_62
+
+- rule: rule_63
+  steps:
+  - intent: intent_63
+  - action: utter_63
+
+- rule: rule_64
+  steps:
+  - intent: intent_64
+  - action: utter_64
+
+- rule: rule_65
+  steps:
+  - intent: intent_65
+  - action: utter_65
+
+- rule: rule_66
+  steps:
+  - intent: intent_66
+  - action: utter_66
+
+- rule: rule_67
+  steps:
+  - intent: intent_67
+  - action: utter_67
+
+- rule: rule_68
+  steps:
+  - intent: intent_68
+  - action: utter_68
+
+- rule: rule_69
+  steps:
+  - intent: intent_69
+  - action: utter_69
+
+- rule: rule_70
+  steps:
+  - intent: intent_70
+  - action: utter_70
+
+- rule: rule_71
+  steps:
+  - intent: intent_71
+  - action: utter_71
+
+- rule: rule_72
+  steps:
+  - intent: intent_72
+  - action: utter_72
+
+- rule: rule_73
+  steps:
+  - intent: intent_73
+  - action: utter_73
+
+- rule: rule_74
+  steps:
+  - intent: intent_74
+  - action: utter_74
+
+- rule: rule_75
+  steps:
+  - intent: intent_75
+  - action: utter_75
+
+- rule: rule_76
+  steps:
+  - intent: intent_76
+  - action: utter_76
+
+- rule: rule_77
+  steps:
+  - intent: intent_77
+  - action: utter_77
+
+- rule: rule_78
+  steps:
+  - intent: intent_78
+  - action: utter_78
+
+- rule: rule_79
+  steps:
+  - intent: intent_79
+  - action: utter_79
+
+- rule: rule_80
+  steps:
+  - intent: intent_80
+  - action: utter_80
+
+- rule: rule_81
+  steps:
+  - intent: intent_81
+  - action: utter_81
+
+- rule: rule_82
+  steps:
+  - intent: intent_82
+  - action: utter_82
+
+- rule: rule_83
+  steps:
+  - intent: intent_83
+  - action: utter_83
+
+- rule: rule_84
+  steps:
+  - intent: intent_84
+  - action: utter_84
+
+- rule: rule_85
+  steps:
+  - intent: intent_85
+  - action: utter_85
+
+- rule: rule_86
+  steps:
+  - intent: intent_86
+  - action: utter_86
+
+- rule: rule_87
+  steps:
+  - intent: intent_87
+  - action: utter_87
+
+- rule: rule_88
+  steps:
+  - intent: intent_88
+  - action: utter_88
+
+- rule: rule_89
+  steps:
+  - intent: intent_89
+  - action: utter_89
+
+- rule: rule_90
+  steps:
+  - intent: intent_90
+  - action: utter_90
+
+- rule: rule_91
+  steps:
+  - intent: intent_91
+  - action: utter_91
+
+- rule: rule_92
+  steps:
+  - intent: intent_92
+  - action: utter_92
+
+- rule: rule_93
+  steps:
+  - intent: intent_93
+  - action: utter_93
+
+- rule: rule_94
+  steps:
+  - intent: intent_94
+  - action: utter_94
+
+- rule: rule_95
+  steps:
+  - intent: intent_95
+  - action: utter_95
+
+- rule: rule_96
+  steps:
+  - intent: intent_96
+  - action: utter_96
+
+- rule: rule_97
+  steps:
+  - intent: intent_97
+  - action: utter_97
+
+- rule: rule_98
+  steps:
+  - intent: intent_98
+  - action: utter_98
+
+- rule: rule_99
+  steps:
+  - intent: intent_99
+  - action: utter_99
+
+- rule: rule_100
+  steps:
+  - intent: intent_100
+  - action: utter_100
+
+- rule: rule_101
+  steps:
+  - intent: intent_101
+  - action: utter_101
+
+- rule: rule_102
+  steps:
+  - intent: intent_102
+  - action: utter_102
+
+- rule: rule_103
+  steps:
+  - intent: intent_103
+  - action: utter_103
+
+- rule: rule_104
+  steps:
+  - intent: intent_104
+  - action: utter_104
+
+- rule: rule_105
+  steps:
+  - intent: intent_105
+  - action: utter_105
+
+- rule: rule_106
+  steps:
+  - intent: intent_106
+  - action: utter_106
+
+- rule: rule_107
+  steps:
+  - intent: intent_107
+  - action: utter_107
+
+- rule: rule_108
+  steps:
+  - intent: intent_108
+  - action: utter_108
+
+- rule: rule_109
+  steps:
+  - intent: intent_109
+  - action: utter_109
+
+- rule: rule_110
+  steps:
+  - intent: intent_110
+  - action: utter_110
+
+- rule: rule_111
+  steps:
+  - intent: intent_111
+  - action: utter_111
+
+- rule: rule_112
+  steps:
+  - intent: intent_112
+  - action: utter_112
+
+- rule: rule_113
+  steps:
+  - intent: intent_113
+  - action: utter_113
+
+- rule: rule_114
+  steps:
+  - intent: intent_114
+  - action: utter_114
+
+- rule: rule_115
+  steps:
+  - intent: intent_115
+  - action: utter_115
+
+- rule: rule_116
+  steps:
+  - intent: intent_116
+  - action: utter_116
+
+- rule: rule_117
+  steps:
+  - intent: intent_117
+  - action: utter_117
+
+- rule: rule_118
+  steps:
+  - intent: intent_118
+  - action: utter_118
+
+- rule: rule_119
+  steps:
+  - intent: intent_119
+  - action: utter_119
+
+- rule: rule_120
+  steps:
+  - intent: intent_120
+  - action: utter_120
+
+- rule: rule_121
+  steps:
+  - intent: intent_121
+  - action: utter_121
+
+- rule: rule_122
+  steps:
+  - intent: intent_122
+  - action: utter_122
+
+- rule: rule_123
+  steps:
+  - intent: intent_123
+  - action: utter_123
+
+- rule: rule_124
+  steps:
+  - intent: intent_124
+  - action: utter_124
+
+- rule: rule_125
+  steps:
+  - intent: intent_125
+  - action: utter_125
+
+- rule: rule_126
+  steps:
+  - intent: intent_126
+  - action: utter_126
+
+- rule: rule_127
+  steps:
+  - intent: intent_127
+  - action: utter_127
+
+- rule: rule_128
+  steps:
+  - intent: intent_128
+  - action: utter_128
+
+- rule: rule_129
+  steps:
+  - intent: intent_129
+  - action: utter_129
+
+- rule: rule_130
+  steps:
+  - intent: intent_130
+  - action: utter_130
+
+- rule: rule_131
+  steps:
+  - intent: intent_131
+  - action: utter_131
+
+- rule: rule_132
+  steps:
+  - intent: intent_132
+  - action: utter_132
+
+- rule: rule_133
+  steps:
+  - intent: intent_133
+  - action: utter_133
+
+- rule: rule_134
+  steps:
+  - intent: intent_134
+  - action: utter_134
+
+- rule: rule_135
+  steps:
+  - intent: intent_135
+  - action: utter_135
+
+- rule: rule_136
+  steps:
+  - intent: intent_136
+  - action: utter_136
+
+- rule: rule_137
+  steps:
+  - intent: intent_137
+  - action: utter_137
+
+- rule: rule_138
+  steps:
+  - intent: intent_138
+  - action: utter_138
+
+- rule: rule_139
+  steps:
+  - intent: intent_139
+  - action: utter_139
+
+- rule: rule_140
+  steps:
+  - intent: intent_140
+  - action: utter_140
+
+- rule: rule_141
+  steps:
+  - intent: intent_141
+  - action: utter_141
+
+- rule: rule_142
+  steps:
+  - intent: intent_142
+  - action: utter_142
+
+- rule: rule_143
+  steps:
+  - intent: intent_143
+  - action: utter_143
+
+- rule: rule_144
+  steps:
+  - intent: intent_144
+  - action: utter_144
+
+- rule: rule_145
+  steps:
+  - intent: intent_145
+  - action: utter_145
+
+- rule: rule_146
+  steps:
+  - intent: intent_146
+  - action: utter_146
+
+- rule: rule_147
+  steps:
+  - intent: intent_147
+  - action: utter_147
+
+- rule: rule_148
+  steps:
+  - intent: intent_148
+  - action: utter_148
+
+- rule: rule_149
+  steps:
+  - intent: intent_149
+  - action: utter_149
+
+- rule: rule_150
+  steps:
+  - intent: intent_150
+  - action: utter_150
+
+- rule: rule_151
+  steps:
+  - intent: intent_151
+  - action: utter_151
+
+- rule: rule_152
+  steps:
+  - intent: intent_152
+  - action: utter_152
+
+- rule: rule_153
+  steps:
+  - intent: intent_153
+  - action: utter_153
+
+- rule: rule_154
+  steps:
+  - intent: intent_154
+  - action: utter_154
+
+- rule: rule_155
+  steps:
+  - intent: intent_155
+  - action: utter_155
+
+- rule: rule_156
+  steps:
+  - intent: intent_156
+  - action: utter_156
+
+- rule: rule_157
+  steps:
+  - intent: intent_157
+  - action: utter_157
+
+- rule: rule_158
+  steps:
+  - intent: intent_158
+  - action: utter_158
+
+- rule: rule_159
+  steps:
+  - intent: intent_159
+  - action: utter_159
+
+- rule: rule_160
+  steps:
+  - intent: intent_160
+  - action: utter_160

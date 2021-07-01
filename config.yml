@@ -1,0 +1,46 @@
+language: "vi"
+
+pipeline:
+  - name: VietnameseTokenizer_pyvi
+  - name: LanguageModelFeaturizer
+    model_name: "roberta"
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    model_confidence: softmax
+    constrain_similarities: True
+    batch_strategy: sequence
+    epochs: 50
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    model_confidence: softmax
+    constrain_similarities: True
+    batch_strategy: sequence
+    epochs: 100
+  - name: FallbackClassifier
+    threshold: 0.5
+
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: RulePolicy
+    core_threshold: 0.3
+    fallback_action_name: 'action_default_fallback'
+    enable_fallback_prediction: True
+  - name: MemoizationPolicy
+    max_history: 3
+  - name: TEDPolicy
+    batch_strategy: sequence
+    model_confidence: linear_norm
+    max_history: 5
+    constrain_similarities: True
+    epochs: 100
+    batch_size:
+    - 32
+    - 64
